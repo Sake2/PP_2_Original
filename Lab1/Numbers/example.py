@@ -3,73 +3,68 @@ y = 2.8  # float
 z = 1j   # complex
 
 
-print(type(x))
-print(type(y))
-print(type(z))
+print(type(x))  # int
+print(type(y))  # float
+print(type(z))   # complex
 
 
-x = 1
-y = 35656222554887711
-z = -3255522
+x = 1       # int
+y = 35656222554887711   # int
+z = -3255522  # int
 
-print(type(x))
-print(type(y))
-print(type(z))
-
-
-
-x = 1.10
-y = 1.0
-z = -35.59
-
-print(type(x))
-print(type(y))
-print(type(z))
-
-
-x = 35e3
-y = 12E4
-z = -87.7e100
-
-print(type(x))
-print(type(y))
-print(type(z))
+print(type(x))   # int
+print(type(y)) # int
+print(type(z))   # int
 
 
 
-x = 3+5j
-y = 5j
-z = -5j
+x = 1.10  # float
+y = 1.0   # float
+z = -35.59  # float
 
-print(type(x))
-print(type(y))
-print(type(z))
+print(type(x))  # float
+print(type(y))  # float
+print(type(z))  # float
+
+
+x = 35e3  # float
+y = 12E4  # float
+z = -87.7e100  # float
+
+print(type(x)) # float
+print(type(y))  # float
+print(type(z)) # float
+
+
+
+x = 3+5j  # complex
+y = 5j  # complex 
+z = -5j  # complex
+
+print(type(x))  # complex
+print(type(y))  # complex 
+print(type(z)) # complex
 
 
 x = 1    # int
 y = 2.8  # float
 z = 1j   # complex
 
-#convert from int to float:
 a = float(x)
-
-#convert from float to int:
 b = int(y)
-
-#convert from int to complex:
 c = complex(x)
 
-print(a)
-print(b)
-print(c)
+print(a)  # float
+print(b)  # int
+print(c) # complex
 
-print(type(a))
-print(type(b))
-print(type(c))
+print(type(a)) # float
+print(type(b)) # int
+print(type(c)) # complex
 
 
 import random
 
-print(random.randrange(1, 10))
+print(random.randrange(1, 10)) #from 1 to 10 random number
 
 

@@ -24,60 +24,60 @@ myvar2 = "John"
 
 
 x, y, z = "Orange", "Banana", "Cherry"
-print(x)
-print(y)
-print(z)
+print(x) #"Orange"
+print(y) #"Banana"
+print(z) #"Cherry"
 
 
 x = "Python is awesome"
-print(x)
+print(x) #"Python is awesome"
 
 
 x = "Python"
 y = "is"
 z = "awesome"
-print(x, y, z)
+print(x, y, z) #"Python is awesome"
 
 
 x = "Python "
 y = "is "
 z = "awesome"
-print(x + y + z)
+print(x + y + z) #"Python is awesome"
 
 
 x = 5
 y = 10
-print(x + y)
+print(x + y) #15
 
 
 x = 5
 y = "John"
-print(x, y)
+print(x, y) #5 John
 
 
 x = "Python is awesome"
-print(x)
+print(x) #"Python is awesome"
 
 x = "Python"
 y = "is"
 z = "awesome"
-print(x, y, z)
+print(x, y, z) #"Python is awesome"
 
 
 x = "Python "
 y = "is "
 z = "awesome"
-print(x + y + z)
+print(x + y + z) #"Python is awesome"
 
 
 x = 5
 y = 10
-print(x + y)
+print(x + y) #15
 
 
 x = 5
 y = "John"
-print(x, y)
+print(x, y) #5 John
 
 
 x = "awesome"
@@ -85,7 +85,7 @@ x = "awesome"
 def myfunc():
   print("Python is " + x)
 
-myfunc()
+myfunc() #"Python is awesome"
 
 
 x = "awesome"
@@ -94,7 +94,7 @@ def myfunc():
   x = "fantastic"
   print("Python is " + x)
 
-myfunc()
+myfunc() #"Python is fantastic"
 
-print("Python is " + x)
+print("Python is " + x) #"Python is awesome"
 
