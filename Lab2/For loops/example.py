@@ -54,7 +54,7 @@ else:
   print("Finally finished!")
 
 #11
-adj = ["red", "big", "tasty"]
+adj = ["re` d", "big", "tasty"]
 fruits = ["apple", "banana", "cherry"]
 
 for x in adj:
@@ -62,5 +62,5 @@ for x in adj:
     print(x, y)
 
 #12
-for x in [0, 1, 2]:
+for x in range(3):
   pass

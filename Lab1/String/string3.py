@@ -1,2 +1,3 @@
 txt = "Hello World"
-x = txt[2:5]
+x = txt[-5:-2]
+print(x)
