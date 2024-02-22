@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Аяулым/Desktop/University/PP_2/Lab4/datetime",
-      "program": "c:/Users/Аяулым/Desktop/University/PP_2/Lab4/datetime/build/Debug/outDebug",
+      "cwd": "c:/Users/Аяулым/Desktop/IPCT/otbor",
+      "program": "c:/Users/Аяулым/Desktop/IPCT/otbor/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

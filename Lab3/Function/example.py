@@ -32,8 +32,7 @@ my_function("Emil", "Tobias", "Linus")
 def my_function(child3, child2, child1):
   print("The youngest child is " + child3)
 
-my_function(child1 = "Emil", ch
-ild2 = "Tobias", child3 = "Linus")
+my_function(child1 = "Emil", child2 = "Tobias", child3 = "Linus")
 
 #7
 def my_function(**kid):
