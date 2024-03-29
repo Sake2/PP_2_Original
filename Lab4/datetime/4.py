@@ -1,6 +1,6 @@
 from datetime import datetime
 date1 = datetime(2024, 2, 21, 12, 0, 0)  
-date2 = datetime(2024, 2, 15, 12, 0, 0)  
+date2 = datetime.now()  
 
 
 date_difference = date1 - date2
